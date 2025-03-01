@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Outer start -->
+      <!-- Headline start -->
+      <div class="row bg-warning p-2">
+        <div class="col-sm-3 pt-2"><i class="fa-solid fa-phone"></i> Contact us: +91 8279302534</div>
+        <div class="col-sm-3 pt-2"><i class="fa-solid fa-envelope"></i> Mail us: anshulnbd5@gmail.com</div>
+        <div class="col-sm-6 text-end">
+          <!-- social media icons -->
+           <ul class="smi">
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-square-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-github"></i></li>
+           </ul>
+        </div>
+      </div>
+      <!-- Headline end -->
+
+      <!-- Navbar start -->
+      <div class="row mt-2">
+        <div class="col-sm-12">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="images/1.png" height="50px" alt="">
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"
+                      >Disabled</a
+                    >
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- Navbar end -->
+      <!-- Slider start-->
+      <div class="row mt-2">
+        <div class="col-sm-12 p-0">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/000/524/773/original/summer-sale-extra-wide-banner-vector.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                  height="400"
+                  width="100"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/002/988/439/large_2x/super-summer-sale-logo-banner-isolated-free-vector.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                  height="400"
+                  width="100"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://blogpakistan.pk/wp-content/uploads/2023/05/Summer-SALE-Diners.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                  height="400"
+                  width="100"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Slider end -->
+
+      <!-- Section start -->
+      <div class="row mt-2">
+        <div class="col-sm-3 text-center">
+          <div class="section shadow-sm">
+            <img
+              src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </div>
+          <button type="button" class="btn btn-warning mt-3">Warning</button>
+        </div>
+        <div class="col-sm-3 text-center">
+          <div class="section shadow-sm">
+            <img
+              src="https://images.pexels.com/photos/8230019/pexels-photo-8230019.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+              alt=""
+            />
+          </div>
+          <button type="button" class="btn btn-warning mt-3">Warning</button>
+        </div>
+        <div class="col-sm-3 text-center">
+          <div class="section shadow-sm">
+            <img
+              src="https://sp.yimg.com/ib/th?id=OIP.YpBQ3jIffNpseSrxu6UN2AHaGP&pid=Api&w=148&h=148&c=7&dpr=2&rs=1"
+              alt=""
+            />
+          </div>
+          <button type="button" class="btn btn-warning mt-3">Warning</button>
+        </div>
+        <div class="col-sm-3 text-center">
+          <div class="section shadow-sm">
+            <img
+              src="https://images.pexels.com/photos/19264378/pexels-photo-19264378/free-photo-of-close-up-of-a-bowl-of-fries-with-melted-cheese-on-top.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+              alt=""
+            />
+          </div>
+          <button type="button" class="btn btn-warning mt-3">Warning</button>
+        </div>
+      </div>
+      <!-- Section end -->
+      
+      <!-- Product start -->
+      <div class="row mt-5">
+        <div class="col-sm-3 product">
+          <div class="card">
+            <img src="https://up.yimg.com/ib/th?id=OIP.1czg1cpKTKn-Z_uQyfKEtAHaE8&pid=Api&rs=1&c=1&qlt=95&w=150&h=100" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs. 500/</h5>
+              <p class="fw-bold">Fruits vinegar</p>
+              <small class="card-text d-block">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </small>
+              <div class="mt-2">
+                <a href="#" class="btn btn-warning">Add to cart</a>
+                <a href="#" class="btn btn-warning float-end">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product">
+          <div class="card">
+            <img src="https://up.yimg.com/ib/th?id=OIP.1czg1cpKTKn-Z_uQyfKEtAHaE8&pid=Api&rs=1&c=1&qlt=95&w=150&h=100" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs. 650/</h5>
+              <p class="fw-bold"> Vine</p>
+              <small class="card-text d-block">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </small>
+              <div class="mt-2">
+                <a href="#" class="btn btn-warning">Add to cart</a>
+                <a href="#" class="btn btn-warning float-end">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product">
+          <div class="card">
+            <img src="https://up.yimg.com/ib/th?id=OIP.1czg1cpKTKn-Z_uQyfKEtAHaE8&pid=Api&rs=1&c=1&qlt=95&w=150&h=100" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs. 450/</h5>
+              <p class="fw-bold">Soft Drinks</p>
+              <small class="card-text d-block">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </small>
+              <div class="mt-2">
+                <a href="#" class="btn btn-warning">Add to cart</a>
+                <a href="#" class="btn btn-warning float-end">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product">
+          <div class="card">
+            <img src="https://up.yimg.com/ib/th?id=OIP.1czg1cpKTKn-Z_uQyfKEtAHaE8&pid=Api&rs=1&c=1&qlt=95&w=150&h=100" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs. 340/</h5>
+              <P class="fw-bold">Vinegar</P>
+              <small class="card-text d-block">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </small>
+              <div class="mt-2">
+                <a href="#" class="btn btn-warning">Add to cart</a>
+                <a href="#" class="btn btn-warning float-end">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product">
+          <div class="card">
+            <img src="https://up.yimg.com/ib/th?id=OIP.1czg1cpKTKn-Z_uQyfKEtAHaE8&pid=Api&rs=1&c=1&qlt=95&w=150&h=100" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs. 500/</h5>
+              <p class="fw-bold">Fruits vinegar</p>
+              <small class="card-text d-block">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </small>
+              <div class="mt-2">
+                <a href="#" class="btn btn-warning">Add to cart</a>
+                <a href="#" class="btn btn-warning float-end">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product">
+          <div class="card">
+            <img src="https://up.yimg.com/ib/th?id=OIP.1czg1cpKTKn-Z_uQyfKEtAHaE8&pid=Api&rs=1&c=1&qlt=95&w=150&h=100" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs. 650/</h5>
+              <p class="fw-bold"> Vine</p>
+              <small class="card-text d-block">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </small>
+              <div class="mt-2">
+                <a href="#" class="btn btn-warning">Add to cart</a>
+                <a href="#" class="btn btn-warning float-end">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product">
+          <div class="card">
+            <img src="https://up.yimg.com/ib/th?id=OIP.1czg1cpKTKn-Z_uQyfKEtAHaE8&pid=Api&rs=1&c=1&qlt=95&w=150&h=100" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs. 450/</h5>
+              <p class="fw-bold">Soft Drinks</p>
+              <small class="card-text d-block">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </small>
+              <div class="mt-2">
+                <a href="#" class="btn btn-warning">Add to cart</a>
+                <a href="#" class="btn btn-warning float-end">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 product">
+          <div class="card">
+            <img src="https://up.yimg.com/ib/th?id=OIP.1czg1cpKTKn-Z_uQyfKEtAHaE8&pid=Api&rs=1&c=1&qlt=95&w=150&h=100" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rs. 340/</h5>
+              <P class="fw-bold">Vinegar</P>
+              <small class="card-text d-block">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </small>
+              <div class="mt-2">
+                <a href="#" class="btn btn-warning">Add to cart</a>
+                <a href="#" class="btn btn-warning float-end">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Product end -->
+
+      <!-- About Section start -->
+       
+      <!-- About Section end -->
+
+
+      <!-- Footer start -->
+       <div class="row bg-warning footer py-5 mt-5">
+        <div class="col-sm-12 text-center">
+          <img src="images/21.png" alt="" class="shadow-lg">
+          <h1 class="mt-2"> About us</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Laboriosam soluta cumque accusantium ut n! <br/>Impedit hic aperiam eaque ad nobis magnam dolor aliquid veritatis dolores ea aspernatur voluptatum sequi doloremque cupiditate harum aut,<br/> ipsam, obcaecati, molestiae explicabo?<br/> Recusandae veritatis aspernatur suscipit?</p>
+          <p>&copy; copyright 2024-2025 all right reserved,<span class="text-danger">designed and developed by @anshul kashyap</span></p>
+        </div>
+       </div>
+       <!-- Footer end -->
+      <!-- Outer end -->
+    </div>
+  </body>
+</html>
